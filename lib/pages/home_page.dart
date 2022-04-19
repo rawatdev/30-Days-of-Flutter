@@ -9,15 +9,13 @@ class HomePage extends StatelessWidget {
     const String name = "Abhishek";
 
     return Scaffold(
-      appBar: AppBar(
-        title: Text("Catalog App"),
-      ),
-      body: Center(
-        child: Container(
+        appBar: AppBar(
+          title: const Text("Catalog App"),
+        ),
+        body: const Center(
           child: Text("Welcome to $days days of flutter by $name"),
         ),
-      ),
-      drawer: Drawer(),
-    );
+        drawer: const Drawer()
+        );
   }
 }
